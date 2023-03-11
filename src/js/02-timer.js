@@ -12,6 +12,9 @@ const numberOfHours = document.querySelector('span[data-hours]');
 const numberOfMinutes = document.querySelector('span[data-minutes]');
 const numberOfSeconds = document.querySelector('span[data-seconds]');
 
+inputDatetime.style.fontSize = '18px';
+countdownTimer.style.fontSize = '18px';
+
 startBtn.disabled = true;
 
 const options = {
